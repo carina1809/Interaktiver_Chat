@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+      <title>Interaktiver Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Interaktiver Chat</h1>
+        <div id="messages">
+            <textarea id="messages-textarea" rows="10" cols="40" readonly></textarea>
+        </div>
+        <div id="input-row">
+          <input type="text" id="message-input" placeholder="Nachricht eingeben..." />
+          <button id="send-button">Senden</button>
+        </div>
+        <div id="client-index"></div>
+    </div>
+</body>
+</html>
